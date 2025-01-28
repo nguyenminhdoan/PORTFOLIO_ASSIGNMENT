@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from "framer-motion";
 import Home from "./Pages/Home";
+import Portofolio from "./Pages/Portofolio";
+import About from "./Pages/About";
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   const navigate = useNavigate();
@@ -85,6 +87,8 @@ function App() {
           }
         />
         <Route path="/home" element={<Home />} />
+        <Route path="/portfolio" element={<Portofolio />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
