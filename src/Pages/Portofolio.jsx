@@ -17,10 +17,13 @@ import { Code, Award, Boxes } from "lucide-react";
 // const orderApp = "../assets/orderApp.png";
 import orderApp from "../assets/orderApp.png";
 import ecommerce from "../assets/ecommerce.jpg";
+import cert1 from "../assets/Cumlaude.jpg";
+import cert2 from "../assets/Samsung-Innovation-cert.jpg";
+import cert3 from "../assets/Mobile-challenge-cert.jpg";
 const PROJECT_DATA = [
   {
     id: "Aritmatika Solver",
-    Link: "https://replit.com/@EkiZR/Aritmatika-Project",
+    Link: "",
     TechStack: ["Python"],
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
@@ -31,12 +34,12 @@ const PROJECT_DATA = [
       "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
       "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas.",
     ],
-    Github: "https://github.com/EkiZR/Aritmatika-Solver",
+    Github: "",
   },
   {
     id: "AutoChat-Discord",
     Title: "AutoChat-Discord",
-    Link: "https://autochat.my.id/",
+    Link: "",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
     Features: [
@@ -61,13 +64,13 @@ const PROJECT_DATA = [
   },
   {
     id: "Buku Catatan",
-    Github: "ekizr.vercel.app",
-    Link: "https://github.com/EkiZR/Buku-Catatan",
+    Github: "",
+    Link: "",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
     TechStack: ["ReactJS", "Vite", "CSS"],
     Title: "Buku Catatan",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczM9nypDGzHROBamkpFL4a4H0w9LDD4FEvC1rPTRcUPunmWp6VTHwxrh88soMRZkTClx1bEEH7e9GZvjzltP5Pij4P4ou2e3wTvgIbggRxxdghrLfb5xuJnUiio_aZ6EHM5oF70Rv6ZbfsgXwPibBgrM=w1326-h679-s-no-gm?authuser=0",
+    Img: "https://www.quytech.com/blog/wp-content/uploads/2021/09/Features-of-real-estate-app-development-scaled.jpg",
     Features: [
       "Pengguna dapat membuat, mengedit, dan mengatur catatan dengan mudah sesuai kebutuhan.",
       "Memungkinkan pengguna untuk menemukan catatan dengan cepat menggunakan kata kunci.",
@@ -75,10 +78,10 @@ const PROJECT_DATA = [
   },
   {
     id: "Growtopia-Calculator",
-    Github: "https://github.com/EkiZR/Growtopia-Surgery-Shop-Calculator",
+    Github: "",
     Title: "Growtopia-Calculator",
-    Link: "https://growtopiacalculator.vercel.app/",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczNqjVfSWMu1M2XRNLeL3KM7soqBzsarT1lhi3rQWyKx6yp5YfK-nJhcdrsy2e-Dim1YtF0qwltbhY8y8RxZAADymL7Tjd2vtmI8gQIDBdrfcxkXf07Y00sCs-8c4Gq-Oq4l_HgiQk2vkmCk9nTP9_IM=w1920-h983-s-no-gm?authuser=0",
+    Link: "",
+    Img: "https://idapgroup.com/blog/blog/wp-content/uploads/2023/05/image4.png",
     Features: [
       "Menghitung modal awal, profit kotor, dan profit bersih secara otomatis dari penjualan tools.",
       "Mensimulasikan jumlah pack yang dijual dan harga per pack untuk merencanakan strategi penjualan.",
@@ -91,7 +94,7 @@ const PROJECT_DATA = [
   {
     id: "IT Support Bekasi",
     Github: "Private",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczMtrTVZHpOJtTEMxAnbQ_pD9QEQxt2maTjN8i1-AtvZgXJMwoccsf_oT-GHNu4WXtLivzu7I_otrvoGWdMRhCeuHIQIJ-nVWuU4aU2UJvRpztUL44_ffHthI8lkoHGI_xSo5XXKtVKOHpTd_pRXnSP3=w1723-h882-s-no-gm?authuser=0",
+    Img: "https://oyelabs.com/wp-content/uploads/2024/02/Instagram-Clone.png",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
     Features: [
@@ -101,11 +104,11 @@ const PROJECT_DATA = [
     ],
     TechStack: ["ReactJS", "Vite", "Tailwind CSS", "AOS", "CSS"],
     Title: "IT Support Bekasi",
-    Link: "https://itsupportbekasi.vercel.app/",
+    Link: "",
   },
   {
     id: "Portofolio-V4",
-    Github: "https://github.com/EkiZR/Portofolio-V4",
+    Github: "",
     Title: "Portofolio-V4",
     Features: [
       "Menampilkan berbagai proyek yang telah diselesaikan dengan berbagai detail informasi",
@@ -113,35 +116,35 @@ const PROJECT_DATA = [
       "Menampilkan teknologi yang di pakai di setiap proyek",
     ],
     TechStack: ["ReactJS", "MUI", "Tailwind CSS", "Vercel", "AOS"],
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczNd83RIs78HOkEaKVc-fHyOsIbRHZcx4cfngGL5mcJVRqPAaX91dLtZvSrkXMHiccb_C4_iJykqaG3rjrZ0uJ8b57tyTdWAVzYvkxJLbMQbvMmiw6IMOYNM1cW1ZyKQ20UwtKunsrKyk5pp9Ip9O5h_=w1920-h983-s-no-gm?authuser=0",
-    Link: "https://ekizr-v4.vercel.app/",
+    Img: "https://www.sourcecodester.com/sites/default/files/images/janobe/2019-08-05_1.png",
+    Link: "",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
   },
   {
     id: "QR Code Generator",
     TechStack: ["Popperjs", "Javascript", "HTML", "CSS"],
-    Link: "https://qrcreatemagic.vercel.app/",
+    Link: "",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczPR9Az7X8J7dXmobR47qDCfqPwpWqV6g2-UleDxG5hTXA_km0NZlxl4KwmtXahDgaZkY_Nfvad2HFmndy57z-c2AWTzo1_s4uP1bykFUhB-ou8CNHW8mWpg6geSxhG6DVQnvFKufkIMfVae45kzr1O3=w1326-h679-s-no-gm?authuser=0",
+    Img: "https://repository-images.githubusercontent.com/129268678/0cde9100-f822-11e9-96ef-fbfa2b0a1c74",
     Title: "QR Code Generator",
     Features: [
       "Mengubah teks atau URL menjadi QR Code dengan mudah.",
       "Menyediakan opsi untuk mengunduh QR Code yang telah dibuat.",
     ],
-    Github: "https://github.com/EkiZR/QR-Code-Generator",
+    Github: "",
   },
   {
     id: "The-Cats",
-    Github: "https://github.com/EkiZR/Project-The-Cats",
+    Github: "",
     Title: "The Cats",
-    Link: "https://thecats.vercel.app/",
+    Link: "",
     Features: [
       "Melihat koleksi foto kucing yang dibagikan oleh orang lain.",
       "Mengunggah foto kucing Anda untuk dibagikan dengan orang lain.",
     ],
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczP7--4BuY7jBl-o1gxq3ULh5x_CdoEo4OqrqP7woR4hdzmCxIyNkCHv-uzNqRZ82za5h4iLzZvBPLMRFjckphJ5-KkRw_t0qdXR843pdUu8x9iWwKCRZM2w3AG4HpzG2Mj6Xg33dfS1_D60ERXIQvyZ=w1317-h679-s-no-gm?authuser=0",
+    Img: "https://www.scalefocus.com/wp-content/uploads/2023/11/SF_FocusCalc_banner_hero_n.png",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
     TechStack: [
@@ -166,8 +169,8 @@ const PROJECT_DATA = [
     TechStack: ["HTML", "CSS", "Javascript", "Boostrap", "AOS"],
     Title: "Web Kelas V1",
     Github: "Private",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczPUL5zRIvV23mf1OlLsvpgVtTrTVOjiMFaWfKKJsPonba-F3Ei0dULsHYz9M0SqoqRIWDpLXHIShpIk1yFKwWv0DmPCeeA0IwbWDMsRvE_LaPY8HxmjcDkHtP0Z2tfUM8CD2VdUuXS6_kSsXIVH6oSg=w1326-h679-s-no-gm?authuser=0",
-    Link: "https://x-tkj-3.vercel.app/",
+    Img: "https://blog.cgify.com/wp-content/uploads/2020/11/financial_application_development.jpg",
+    Link: "",
   },
   {
     id: "Web Kelas V2",
@@ -184,10 +187,10 @@ const PROJECT_DATA = [
     ],
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    Link: "https://xitkj3.vercel.app/",
+    Link: "",
     Title: "Web Kelas V2",
-    Github: "https://github.com/EkiZR/Web-Kelas-V2",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczPOasnWRl6T-UawHGJs7hMU2ZcMCsP95pKAYKHJgTLRzNJs4Hsx8XHVMJHS9d25RxaPsmFxDho1Tnqe9HwcfMdBSiz2WKUtvxuja0P_usOo9rJJyHaLQm-zOvteoDdgYH003WxSOvgUkG31mRnXMWm5=w1326-h679-s-no-gm?authuser=0",
+    Github: "",
+    Img: "https://www.toyotafinancial.com/content/dam/tmcc-webcommons/toyotafinancial/landing-page/tfs/supercharged_payments.png",
     Features: [
       "Menyediakan fitur Text Anonim untuk berbagi pesan anonim antar siswa.",
       "Menyediakan Gallery untuk berbagi foto-foto kegiatan kelas.",
@@ -197,40 +200,40 @@ const PROJECT_DATA = [
   },
   {
     id: "WhatsApp Clone",
-    Github: "https://github.com/EkiZR/WhatsClone",
+    Github: "",
     TechStack: ["HTML", "CSS", "Javascript", "Bootstrap", "SweetAlert2"],
     Features: [
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
     ],
-    Link: "https://ekizr.github.io/WhatsClone/whatsapp.html",
+    Link: "",
     Title: "WhatsApp Clone",
     Description:
       "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczO321A1J5waLZu9cHI4SM30wi1iKspuwHWJZ7eojb6Npb8qyxdmCrjCE0XgwbUPw-pRFlidDsCu62ThCjj2saEHU5jnSX0OBo1AORToXUX93Q52ZGpq1bLFuos_73EtJKsL4C-iQ1ehnlyvqUlRSJAD=w1326-h679-s-no-gm?authuser=0",
+    Img: "https://sendbird.sfo3.digitaloceanspaces.com/cms/Blog-mobile-WhatsApp-messenger-clone.png",
   },
 ];
 
 const CERT_DATA = [
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczOHjlE-lvr8njsY8pa2lxoPH8FzFr-4FNnjAMU1ttlTa0X6ubIVYga1cCmKP__rhF2asOzbZxbJeR-OKqwjmH3jde1rL2Bl6wcAJZEsN04BJ9AXAqAiV5bkm1tWzlrdfWgpgvrBFgHh76l8_KcjskBZ=w961-h679-s-no-gm?authuser=0",
+    Img: cert1,
   },
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczN0V92mshe0GcjgjMn3g116zaOGTto7lXMKDOsFuphO3Iey6tZVTu6juSYAuCx5kjDb_YKZbNBTlPayw8s0749Qt-MiAFhedZBz0OC2CZnyxzcDsM3TAtectNWbKgHGlr1pEXylAB5ej4oldHQJh1hQ=w960-h679-s-no-gm?authuser=0",
+    Img: cert2,
   },
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczOYtlztmqMHcYdUepBFDvWKxCBuWFH90xCle0eumBdIK4nm89udHcyYCWPDxk6OLtZmAp6K1vTP9zcuBHk_xW8e46805NoptUjh9F3ClcKLe_-ps32mTnxFoIiDCtclgU-FgWyz5cfg_fM5Q7FkDbBQ=w961-h679-s-no-gm?authuser=0",
+    Img: cert3,
   },
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczMyc91Eh9_Nz5q9d5Ty1G_UTqIghhWrHbTXTGrBMZcriQkIxQYih0oXuj6YtufalRaZCwhcCLtuzrOqOx-t-czrq4DOJSFKfl_qbmGX7D8wejLonmA8EdrYL7cCMZOOEmIKLXAFNus9SkWAs5wZHR6P=w961-h679-s-no-gm?authuser=0",
+    Img: cert3,
   },
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczMi-peaFb_Pd9JSx34i-nnslx8yk8n2urfjdsgRKBxtexSpj8T4UZAVKX5s_7KtOYt8TpWru1Px1FzJFapc6NjG3FUskuvfQ42FITkWDje0cI_M9hGL5Hi0yN2wA7tZZjO6gSoGRkDKx6th_Opo6W6A=w960-h679-s-no-gm?authuser=0",
+    Img: cert2,
   },
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczMkvr4um7-5wWWIuZl0k9OX5N0VsejKCC6tsmqGUnIAH0IjI8vT_n4OqMhybSs6B9u8EO383ruBB8SFN-pbQkRCdiNkealgvpWNPdBEtGiowCBhYN6myUoqd1T_808bvM2ozPT5p_c8the-ce28BTGt=w960-h679-s-no-gm?authuser=0",
+    Img: cert1,
   },
   {
-    Img: "https://lh3.googleusercontent.com/pw/AP1GczMTij3hIlw0e1bST38aaNw44JDgQtSPewEfefMGQIzCY8YHtNwPevJ-5qxuhmr_IRvqTRlMH3bNVFuup4NDippZtNJ5A25gzMARsoq4THhSwq-muRSiuigTRPk41z-Uo1wzmhDfUki21QoQ4Dw5kT75=w959-h679-s-no-gm?authuser=0",
+    Img: cert2,
   },
 ];
 

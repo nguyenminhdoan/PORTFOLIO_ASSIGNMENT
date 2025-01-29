@@ -7,6 +7,8 @@ import { AnimatePresence } from "framer-motion";
 import Home from "./Pages/Home";
 import Portofolio from "./Pages/Portofolio";
 import About from "./Pages/About";
+import Resume from "./Pages/Resume";
+import Contact from "./Pages/Contact";
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   const navigate = useNavigate();
@@ -89,6 +91,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/portfolio" element={<Portofolio />} />
         <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
