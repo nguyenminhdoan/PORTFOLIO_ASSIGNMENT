@@ -1,9 +1,22 @@
+/* -----------------------------------------------------------
+Student: MINH DOAN NGUYEN
+Student ID: 301413330
+Date: JAN/29/2025
+------------------------------------------------------------ */
+
+// ========================
+//    Imports
+// ========================
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from "framer-motion";
+
+// ========================
+//    Components
+// ========================
 import Home from "./Pages/Home";
 import Portofolio from "./Pages/Portofolio";
 import About from "./Pages/About";
